@@ -46,6 +46,7 @@
       <PreprocessorDefinitions>GITDLL_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <ExceptionHandling>SyncCThrow</ExceptionHandling>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
     </ClCompile>
     <Link>
       <AdditionalDependencies>ntdll.lib;wininet.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
